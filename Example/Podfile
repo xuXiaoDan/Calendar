@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'Calendar_Example' do
+  pod 'Calendar', :path => '../'
+  pod 'PGActionSheetCalendar'
+  
+  target 'Calendar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
